@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    transform: rotate(-120deg);
+    transform: rotate(-100deg);
 }
 .hour,.min,.sec{ 
     height: 2px;
@@ -30,12 +30,16 @@
     width: 55px;
 }
 .min{
-    transform: rotate(20deg);
+    transform: rotate(2deg);
     background-color: rgb(3, 93, 48);
     width: 65px;
 }
 .sec{
-    transform: rotate(40deg);
+    transform: rotate(20deg);
     background-color: rgb(0, 0, 0);
     width: 75px;
+}
+span{
+    background-color: aliceblue;
+    position: absolute;
 }

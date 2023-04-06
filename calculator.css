@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(45, 41, 41);
+}
+.parent{
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(250, 243, 243);
+    margin: 30px auto;
+    border: 2px solid rgb(212, 212, 233);
+    border-radius: 5px;
+}
+.enter input{
+    background-color: aliceblue;
+    width: 198px;
+    height: 70px;
+    padding: 30px;
+}
+.row1 input{
+    color: aliceblue;
+    cursor: pointer;
+    width: 43.5px;
+    padding: 12px;
+    margin: 1px;
+    border-radius: 50%;
+}
